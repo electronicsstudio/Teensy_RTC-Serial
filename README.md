@@ -1,1 +1,2 @@
 # Teensy_RTC-Serial
+This Arduino code retrieves and displays the real-time clock (RTC) time from a Teensy 3.x board. It initializes serial communication at 115200 baud, waits for the Serial Monitor to connect, and sets up the time synchronization using the Teensy's internal RTC. In the loop(), it continuously prints the current time (HH:MM:SS) and date (MM/DD/YYYY) every second. The function getTeensy3Time() fetches the RTC time using Teensy3Clock.get().
